@@ -1,51 +1,40 @@
-# API DE FILMES USANDO REACTJS
+# 🎬 Catálogo de Filmes - React
 
-Por [Diego Candido](https://diegocandido.com)
+Este é um projeto de estudo desenvolvido durante as aulas do curso de **React**, ministradas pelo professor **Diego Candido**. O objetivo principal foi aprender a consumir uma API REST externa para listar filmes populares.
 
+## 👨‍🏫 Créditos e Agradecimentos
+- **Professor:** Diego Candido
+- **Repositório original da aula:** [profdiegocandido/api-filme-react](https://github.com/profdiegocandido/api-filme-react)
 
-Montei esse projeto bem básico para consumir uma API Rest com lista de filmes.
+## 🚀 Tecnologias Utilizadas
+- **React.js** (Frontend)
+- **JavaScript**
+- **CSS**
+- **API do TMDB** (The Movie Database) para os dados dos filmes
 
+---
 
+## 🔧 Como rodar este projeto
 
-## Site que fornece a API grátis: 
-```
-https://www.themoviedb.org/
-```
+1. **Clone o repositório:**
+   git clone https://github.com/
 
-## Documentação Oficial do projeto:
-```
-https://www.themoviedb.org/documentation/api
-```
+2. **Acesse a pasta do projeto:**
 
-Irá ser necessário a geração de uma chave privada nesse link:
-```
-https://www.themoviedb.org/settings/api
-```
+3. **Instale as dependências:**
+   npm install
 
-## Token no arquivo .ENV ##
-Para acessar a API Restfull do site é necessário criar um token e colocar em um arquivo .ENV na raíz do projeto. Conforme imagem abaixo:
+4. **Configure a chave da API:**
+   Crie um arquivo chamado `.env` na raiz do projeto e adicione a sua chave do TMDB:
+   REACT_APP_KEY=sua_chave_aqui
+   (Você pode gerar uma chave gratuita em: https://www.themoviedb.org/settings/api)
 
-![print](https://user-images.githubusercontent.com/1766790/191596782-51cd52f4-d471-4930-9e33-d792ad4aeeb1.JPG)
+5. **Inicie o projeto:**
+   npm start
 
+## 📌 Status do Projeto
+Projeto concluído para fins educacionais. ✅
 
-## Clonando o Repositório ##
-Com o Git e o Node.js instalado na sua maquina e a **URL** do projeto em mãos, cria em algum lugar do seu pc uma pasta para criarmos uma copia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
-```
-git clone https://github.com/profdiegocandido/api-filme-react.git
-cd api-filme-react
-npm install
-npm start
-```
-
-## Tela Inicial do projeto:
-
-![screan](https://user-images.githubusercontent.com/81689363/190420116-177e6087-c1dd-4276-bef1-1dd20e575039.PNG)
-
-
-## Tela de detalhes do filme:
-
-![details](https://user-images.githubusercontent.com/81689363/190419902-82b9ce94-3944-4bdb-ad1c-e35a93b142e1.PNG)
-
-
-
- 
+---
+Desenvolvido por **Lucas Mota**.
+   
